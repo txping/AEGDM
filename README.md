@@ -13,7 +13,7 @@ We test AEGDM on the standard CIFAR-10 and CIFAR-100 image classification tasks,
 The implementation is highly based on [this repository](https://github.com/Luolc/AdaBound). We also provide a [notebook](./visualization.ipynb) to present our results for this example.
 
 Supported models for CIFAR-10 are VGG, ResNet, DenseNet and CifarNet, for CIFAR-100 are SqueezeNet and GoogleNet.
-For VGG, the weight decay is set as $5\times10^{-4}$; for other architectures, the weight decay is set as $1\times10^{-4}$.
+For VGG, the weight decay is set as '5e-4'; for other architectures, the weight decay is set as '1e-4'.
 For DenseNet, the batch size is set as 64; for other architectures, the batch size is set as 128. The initial set of learning rate for each optimizer are:
 
 * SGDM: {0.03, 0.05, 0.1, 0.2, 0.3}
